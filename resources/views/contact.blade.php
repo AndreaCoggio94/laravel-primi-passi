@@ -4,7 +4,7 @@
 <head>
     @include('partials.head')
 
-    <title>Homepage</title>
+    <title>Contact</title>
 </head>
 
 <body>

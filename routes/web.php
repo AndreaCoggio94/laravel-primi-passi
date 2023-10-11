@@ -18,6 +18,25 @@ Route::get('/', function () {
 
 
     return view('home', compact('hello'));
+})->name('home');
+
+Route::get('/contact', function () {
+    $hello = "Hello Contacts!";
 
 
-});
+    return view('contact', compact('hello'));
+})->name('contact');
+
+Route::get('/link', function () {
+    $hello = "Hello Links!";
+
+
+    return view('link', compact('hello'));
+})->name('link');
+
+Route::get('/about-us', function () {
+    $hello = "Hello There, this is us!";
+
+
+    return view('about-us', compact('hello'));
+})->name('about-us');
